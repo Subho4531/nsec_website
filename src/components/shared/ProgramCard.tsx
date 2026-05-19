@@ -16,7 +16,7 @@ export default function ProgramCard({ title, description, icon, link = "#" }: Pr
       <h4 className="font-headline-md text-xl font-bold mb-3">{title}</h4>
       <p className="font-body-md text-on-surface-variant mb-6 h-20">{description}</p>
       <a className="inline-flex items-center gap-2 text-primary font-bold font-label-sm text-label-sm uppercase tracking-widest hover:text-tertiary-container transition-colors" href={link}>
-        Explore Program <span className="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+        Explore Program <span className="material-symbols-outlined m-2 text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
       </a>
     </div>
   );

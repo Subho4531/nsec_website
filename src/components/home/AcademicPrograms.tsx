@@ -8,12 +8,6 @@ export default function AcademicPrograms() {
 
   const programs = [
     {
-      title: "B.Tech in CSE",
-      description: "Flagship program offering a comprehensive foundation in computing theories, software design, computer systems, and full-stack development.",
-      icon: "computer",
-      link: "/faculty/cse"
-    },
-    {
       title: "B.Tech in CSE (AIML)",
       description: "Focuses on building intelligent machines using deep learning, NLP, computer vision, and neural network algorithms.",
       icon: "psychology",
@@ -54,7 +48,7 @@ export default function AcademicPrograms() {
   const displayedPrograms = showAll ? programs : programs.slice(0, 3);
 
   return (
-    <section className="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto bg-surface scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+    <section id="programs" className="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto bg-surface scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
       <div className="text-center mb-16">
         <span className="font-label-sm text-label-sm text-tertiary-container uppercase tracking-widest mb-4 block font-bold text-primary/60 border-b border-primary/10 w-fit mx-auto pb-1">
           Comprehensive Curriculum

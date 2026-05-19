@@ -19,19 +19,28 @@ export default function Footer() {
         <div className="flex gap-4">
           <a
             className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-tertiary-container hover:border-tertiary-container hover:scale-110 transition-all duration-300"
-            href="#"
+            href="https://www.nsec.ac.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="NSEC Main Website"
           >
             <span className="material-symbols-outlined text-lg">public</span>
           </a>
           <a
             className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-tertiary-container hover:border-tertiary-container hover:scale-110 transition-all duration-300"
-            href="#"
+            href="https://www.nsec.ac.in/fps/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Faculty Portal"
           >
             <span className="material-symbols-outlined text-lg">groups</span>
           </a>
           <a
             className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-tertiary-container hover:border-tertiary-container hover:scale-110 transition-all duration-300"
-            href="#"
+            href="https://www.nsec.ac.in/admission-criteria.php"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Admissions"
           >
             <span className="material-symbols-outlined text-lg">school</span>
           </a>
@@ -46,7 +55,7 @@ export default function Footer() {
             <li>
               <a
                 className="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm"
-                href="#"
+                href="/#programs"
               >
                 B.Tech Programs
               </a>
@@ -54,7 +63,9 @@ export default function Footer() {
             <li>
               <a
                 className="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm"
-                href="#"
+                href="https://www.nsec.ac.in/mtech-courses.php"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 M.Tech Programs
               </a>
@@ -62,7 +73,9 @@ export default function Footer() {
             <li>
               <a
                 className="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm"
-                href="#"
+                href="https://www.nsec.ac.in/syllabus.php"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Curriculum &amp; Syllabus
               </a>
@@ -70,7 +83,9 @@ export default function Footer() {
             <li>
               <a
                 className="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm"
-                href="#"
+                href="https://www.nsec.ac.in/academic-calendar.php"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Academic Calendar
               </a>
@@ -85,7 +100,9 @@ export default function Footer() {
             <li>
               <a
                 className="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm"
-                href="#"
+                href="https://www.nsec.ac.in/nba.php"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 NBA Accreditation
               </a>

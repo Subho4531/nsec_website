@@ -36,7 +36,7 @@ export default function FacultyCarousel() {
   ];
 
   return (
-    <section className="py-24 bg-surface overflow-hidden scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+    <section id="mentors" className="py-24 bg-surface overflow-hidden scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-12">
         <div className="text-center">
           <span className="font-label-sm text-label-sm text-tertiary-container uppercase tracking-widest mb-4 block font-bold text-primary/60 border-b border-primary/10 w-fit mx-auto pb-1">

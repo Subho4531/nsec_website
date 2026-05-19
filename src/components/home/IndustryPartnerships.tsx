@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function IndustryPartnerships() {
   return (
-    <section className="py-24 bg-primary text-white text-center scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+    <section id="placements" className="py-24 bg-primary text-white text-center scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <span className="font-label-sm text-label-sm text-tertiary-fixed-dim uppercase tracking-widest mb-4 block font-bold text-primary/60 border-b border-primary/10 w-fit mx-auto pb-1">
           Industry Integration
@@ -17,12 +17,12 @@ export default function IndustryPartnerships() {
           <div className="animate-marquee items-center">
             {/* First Set */}
             <div className="flex items-center gap-12 md:gap-24 flex-nowrap pr-12 md:pr-24">
+              <h4 className="text-2xl font-bold tracking-tighter">TCS</h4>
               <div className="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0">
-                <img alt="TCS" className="h-10 filter brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKwN9_J9zCrtWKuzxL_fjjGGXvRE_H-XYI_bxMydJS5pY0bVuLMTmcvQnkrwHpKZMGgFGKV4f4OIQ-38owyc4av8iE09DyNsOVADwyj57gLZou9LOWd-PTzCLvAqikjt7FY05JsRix4vJpT3ZnZAc3BESFDmn2EUidZWqy0IaAn8nnl7gHokSqGtWchyaj01XQS9xu9fmc8EMngxXo51MiTUTcLOutF29r94_dxnoCjM4HNRedWW96HH4DT8y-47RZoGVdn0aXTg" />
                 <span className="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span>
               </div>
               <div className="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0">
-                <img alt="Amazon" className="h-8 filter brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeZjfeTK_rAw0N4hm3JJoNMVQyDzjKd5m1gqZFrsL6_rhNmWlPBKMZBSe6BkqEltzG43JJDVPZJpMl9dTDa3ZaA2m98LOvImwKccK5fUEjajGqiFpweeM1HJ5EmDFC4ShZNn5RaBh-9svu6yKA6AtiQ4MNG1Nngm4j07Nyhrw5MaMKJSMp6G9nxzQj8E-z8Ver2NQCd9s8mC6lt2sltKAfUcu2GXmoDMN8n-mJFSTtGj2_x2UgTsso3gHLjcHkvDnzKD0T8NfYYQ" />
+                <h4 className="text-2xl font-bold tracking-tighter">Wipro</h4>
                 <span className="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span>
               </div>
               <div className="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0">
@@ -45,11 +45,11 @@ export default function IndustryPartnerships() {
             {/* Second Set for infinite scroll illusion */}
             <div aria-hidden="true" className="flex items-center gap-12 md:gap-24 flex-nowrap pr-12 md:pr-24">
               <div className="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0">
-                <img alt="TCS" className="h-10 filter brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKwN9_J9zCrtWKuzxL_fjjGGXvRE_H-XYI_bxMydJS5pY0bVuLMTmcvQnkrwHpKZMGgFGKV4f4OIQ-38owyc4av8iE09DyNsOVADwyj57gLZou9LOWd-PTzCLvAqikjt7FY05JsRix4vJpT3ZnZAc3BESFDmn2EUidZWqy0IaAn8nnl7gHokSqGtWchyaj01XQS9xu9fmc8EMngxXo51MiTUTcLOutF29r94_dxnoCjM4HNRedWW96HH4DT8y-47RZoGVdn0aXTg" />
+                <h4 className="text-2xl font-bold tracking-tighter">Capgemini</h4>
                 <span className="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span>
               </div>
               <div className="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0">
-                <img alt="Amazon" className="h-8 filter brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeZjfeTK_rAw0N4hm3JJoNMVQyDzjKd5m1gqZFrsL6_rhNmWlPBKMZBSe6BkqEltzG43JJDVPZJpMl9dTDa3ZaA2m98LOvImwKccK5fUEjajGqiFpweeM1HJ5EmDFC4ShZNn5RaBh-9svu6yKA6AtiQ4MNG1Nngm4j07Nyhrw5MaMKJSMp6G9nxzQj8E-z8Ver2NQCd9s8mC6lt2sltKAfUcu2GXmoDMN8n-mJFSTtGj2_x2UgTsso3gHLjcHkvDnzKD0T8NfYYQ" />
+                <h4 className="text-2xl font-bold tracking-tighter">JP Morgan</h4>
                 <span className="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span>
               </div>
               <div className="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0">
