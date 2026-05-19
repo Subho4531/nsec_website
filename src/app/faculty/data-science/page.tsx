@@ -1,6 +1,6 @@
 import React from 'react';
-import FacultyDepartmentLayout from '../../../components/shared/FacultyDepartmentLayout';
-import dsFacultyData from '../../../../raw-stitch-code/data/data_science_faculty.json';
+import FacultyDepartmentLayout from '@/components/shared/FacultyDepartmentLayout';
+import dsFacultyData from '@/data/data_science_faculty.json';
 
 export const metadata = {
   title: 'Faculty - Data Science | NSEC',

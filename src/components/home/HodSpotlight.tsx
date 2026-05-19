@@ -9,8 +9,8 @@ export default function HodSpotlight() {
           <div className="relative rounded-sm overflow-hidden border-8 border-white shadow-xl group-hover:shadow-2xl transition-shadow duration-500">
             <img
               alt="Dr. Piyali Chatterjee"
-              className="w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
-              src="https://lh3.googleusercontent.com/aida/ADBb0ugRqGkTsmwSrKQeqfMjqsPd4BPIOywBw7X3bAgwPhe0G4IlbXlB2q13r541aJHrOleuerDhg3-s50VYM9FwRFToslK5T7Cvm0th515Xw7SMz0_kBfZHNh_fT8qhyd2s76dDUAwCoeNHlhBRkj6aHi4FOoCGXr7nqHlTeyN-6UAqnqmNU1d-NB5M3CodIJH1KhM_QcKXVyKG76MUlB17YirYjl_zFbEUiN9xD8-GzrTwRUF6WMWI1ZsQ"
+              className="w-full h-auto object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
+              src="https://www.nsec.ac.in/fps/images/1747200952.jpg"
             />
           </div>
         </div>

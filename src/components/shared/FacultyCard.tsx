@@ -27,7 +27,7 @@ export default function FacultyCard({
         <div className="relative w-full h-48 rounded-lg overflow-hidden mb-4 border border-black/5 bg-surface-container group/img">
           <img
             alt={name}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover/img:scale-105"
+            className="w-full h-full object-cover object-top transition-transform duration-500 group-hover/img:scale-105"
             src={imageSrc || defaultImage}
             onError={(e) => {
               (e.currentTarget as HTMLImageElement).src = defaultImage;

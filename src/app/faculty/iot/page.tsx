@@ -1,6 +1,6 @@
 import React from 'react';
-import FacultyDepartmentLayout from '../../../components/shared/FacultyDepartmentLayout';
-import iotFacultyData from '../../../../raw-stitch-code/data/iot_faculty.json';
+import FacultyDepartmentLayout from '@/components/shared/FacultyDepartmentLayout';
+import iotFacultyData from '@/data/iot_faculty.json';
 
 export const metadata = {
   title: 'Faculty - Internet of Things | NSEC',

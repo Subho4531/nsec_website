@@ -291,7 +291,7 @@ export default function DepartmentFacultyPage({
                     <div className="relative w-full h-44 rounded-lg overflow-hidden bg-black/5 mb-4 flex items-center justify-center">
                       <img
                         alt={member.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                         src={member.imageSrc || 'https://www.nsec.ac.in/fps/images/logo.png'}
                         onError={(e) => {
                           (e.target as HTMLImageElement).src = 'https://www.nsec.ac.in/fps/images/logo.png';
@@ -363,7 +363,7 @@ export default function DepartmentFacultyPage({
             <div className="md:w-2/5 bg-black/5 relative min-h-[220px] md:min-h-full flex items-center justify-center">
               <img
                 alt={selectedFaculty.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                 src={selectedFaculty.imageSrc || 'https://www.nsec.ac.in/fps/images/logo.png'}
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = 'https://www.nsec.ac.in/fps/images/logo.png';

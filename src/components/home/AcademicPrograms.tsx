@@ -1,28 +1,57 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import ProgramCard from '../shared/ProgramCard';
 
 export default function AcademicPrograms() {
+  const [showAll, setShowAll] = useState(false);
+
   const programs = [
     {
+      title: "B.Tech in CSE",
+      description: "Flagship program offering a comprehensive foundation in computing theories, software design, computer systems, and full-stack development.",
+      icon: "computer",
+      link: "/faculty/cse"
+    },
+    {
       title: "B.Tech in CSE (AIML)",
-      description: "Specialized program focusing on Artificial Intelligence and Machine Learning paradigms, preparing students for intelligent system design.",
+      description: "Focuses on building intelligent machines using deep learning, NLP, computer vision, and neural network algorithms.",
       icon: "psychology",
-      link: "/faculty/ai-ds"
+      link: "/faculty/aiml"
     },
     {
       title: "B.Tech in CSE (DS)",
-      description: "Deep dive into Data Science, big data analytics, and statistical modeling to extract actionable insights from complex datasets.",
+      description: "Covers big data structures, statistical analysis, data engineering, and predictive algorithms to discover hidden data insights.",
       icon: "analytics",
       link: "/faculty/data-science"
     },
     {
+      title: "B.Tech in CSE (CS)",
+      description: "Specialized training in ethical hacking, cryptography, security protocols, network defense, and system auditing.",
+      icon: "security",
+      link: "/faculty/cyber-security"
+    },
+    {
       title: "B.Tech in CSE (IoT)",
-      description: "Focusing on Internet of Things, connected devices architecture, and sensor networks for smart environments.",
+      description: "Examines sensor systems, connected architecture, embedded software, and wireless technology for smart automation environments.",
       icon: "router",
       link: "/faculty/iot"
+    },
+    {
+      title: "B.Tech in CSBS",
+      description: "Curated in partnership with TCS, aligning technical computer science engineering skills with business leadership, design thinking, and management.",
+      icon: "business_center",
+      link: "/faculty/csbs"
+    },
+    {
+      title: "B.Tech in AI & DS",
+      description: "Combines computing systems with statistics, machine learning pipelines, and database optimization to solve real-world industry problems.",
+      icon: "insights",
+      link: "/faculty/ai-ds"
     }
   ];
 
+  const displayedPrograms = showAll ? programs : programs.slice(0, 3);
 
   return (
     <section className="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto bg-surface scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
@@ -37,14 +66,17 @@ export default function AcademicPrograms() {
           Designed to align with emerging technological trends and industry requirements. Explore our specialized B.Tech streams.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {programs.map((prog, idx) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-500">
+        {displayedPrograms.map((prog, idx) => (
           <ProgramCard key={idx} {...prog} />
         ))}
       </div>
       <div className="text-center mt-12">
-        <button className="border-2 border-primary text-primary px-8 py-3 font-label-sm text-label-sm rounded-sm font-bold hover:bg-primary hover:text-white hover:scale-105 active:scale-95 transition-all duration-300 shadow-sm hover:shadow-lg uppercase tracking-widest">
-          View All Courses
+        <button
+          onClick={() => setShowAll(!showAll)}
+          className="border-2 border-primary text-primary px-8 py-3 font-label-sm text-label-sm rounded-sm font-bold hover:bg-primary hover:text-white hover:scale-105 active:scale-95 transition-all duration-300 shadow-sm hover:shadow-lg uppercase tracking-widest cursor-pointer"
+        >
+          {showAll ? "Show Less Streams" : "View All Courses"}
         </button>
       </div>
     </section>

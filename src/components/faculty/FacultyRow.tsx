@@ -24,7 +24,7 @@ export default function FacultyRow({
       <div className="relative w-32 h-32 md:w-36 md:h-36 rounded-lg overflow-hidden flex-shrink-0 shadow-sm border border-black/10">
         <img
           alt={name}
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-110"
           src={imageSrc || defaultImage}
           onError={(e) => {
             (e.target as HTMLImageElement).src = defaultImage;
