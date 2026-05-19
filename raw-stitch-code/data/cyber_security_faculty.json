@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Mr. Prithwish Das",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595659474.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=50",
+    "researchArea": "Image Steganography",
+    "experience": "12 years"
+  },
+  {
+    "name": "Mr. Arnab Chakraborty",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595953424.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=52",
+    "researchArea": "IoT Security and Trust",
+    "experience": "9 years"
+  },
+  {
+    "name": "Ms. Runa Chatterjee",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595959933.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=49",
+    "researchArea": "Cryptography in IoT domain",
+    "experience": "16 years"
+  },
+  {
+    "name": "Dr. Anupam Ghosh",
+    "designation": "Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1756630254.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=138",
+    "researchArea": "Data Mining, AI, generative AI, Explainable AI, Soft Computing, Machine Learning, Sentiment Analysis, Deep Neural networks, Image Processing, bio-medical Imaging, Parallel computing (GPU-CUDA), Criminology, Network Security, Neurological &amp; Psychological Disorders, Computational Biology",
+    "experience": "23 years"
+  },
+  {
+    "name": "Dr. Sourabh Chandra",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/sourabh_chandra_picture.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=218",
+    "researchArea": "Elastic optical networks, Placement of Data Centers, SDM-EON, Cryptography , Mobile Computing",
+    "experience": "17 years"
+  },
+  {
+    "name": "Dr. Ratul Chowdhury",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1739927445.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=229",
+    "researchArea": "Network security, Cryptography, Machine learning, Ensemble learning, IoT security",
+    "experience": "10 years"
+  },
+  {
+    "name": "Dr. Anirban Kundu",
+    "designation": "Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1676372089.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=95",
+    "researchArea": "His research interests include pattern recognition, machine learning, artificial intelligence, search engine optimization, prediction, distributed computing, semantic web, natural language processor, cellular automata, multi-agent system, fuzzy controlled system, cloud computing, high performance computing, internet of things, storage system, smart traffic, cryptography.",
+    "experience": "20 years"
+  },
+  {
+    "name": "Mr. ABHISEK SAHA",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1757194671.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=156",
+    "researchArea": "Steganography, Soft computing,Machine Learning, Deep Learning in the field of Agriculture",
+    "experience": "15 years"
+  }
+]

@@ -1,0 +1,498 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head></head><body class="bg-surface text-on-surface font-light">```html
+
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>NSEC CSE | Department of Computer Science &amp; Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=IBM+Plex+Sans:wght@400;600&amp;family=Work+Sans:wght@400;500&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                "inverse-on-surface": "#f0f1f2",
+                "secondary-fixed": "#d8e2ff",
+                "outline": "#777680",
+                "on-surface-variant": "#46464f",
+                "inverse-primary": "#bdc2ff",
+                "secondary-container": "#7ca8fd",
+                "inverse-surface": "#2e3132",
+                "on-secondary-container": "#003b81",
+                "surface-container-lowest": "#ffffff",
+                "surface-container-low": "#f3f4f5",
+                "on-tertiary": "#ffffff",
+                "on-background": "#191c1d",
+                "surface-tint": "#545a92",
+                "on-tertiary-container": "#fb3232",
+                "on-error-container": "#93000a",
+                "surface-bright": "#f8f9fa",
+                "surface": "#f8f9fa",
+                "tertiary-fixed-dim": "#ffb4ab",
+                "surface-container-highest": "#e1e3e4",
+                "primary-fixed-dim": "#bdc2ff",
+                "on-secondary-fixed-variant": "#004493",
+                "secondary-fixed-dim": "#adc7ff",
+                "secondary": "#2a5dad",
+                "on-primary": "#ffffff",
+                "tertiary": "#000000",
+                "on-primary-container": "#7a7fba",
+                "error-container": "#ffdad6",
+                "surface-container-high": "#e7e8e9",
+                "background": "#f8f9fa",
+                "on-secondary": "#ffffff",
+                "on-tertiary-fixed-variant": "#93000d",
+                "outline-variant": "#c7c5d1",
+                "on-primary-fixed-variant": "#3c4278",
+                "surface-container": "#edeeef",
+                "on-tertiary-fixed": "#410002",
+                "on-primary-fixed": "#0f154a",
+                "on-error": "#ffffff",
+                "tertiary-fixed": "#ffdad6",
+                "on-secondary-fixed": "#001a41",
+                "primary-container": "#0c1248",
+                "primary": "#0c1248",
+                "primary-fixed": "#dfe0ff",
+                "on-surface": "#191c1d",
+                "surface-variant": "#e1e3e4",
+                "tertiary-container": "#ba1a1a",
+                "surface-dim": "#d9dadb",
+                "error": "#ba1a1a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "unit": "4px",
+                      "margin-mobile": "16px",
+                      "margin-desktop": "64px",
+                      "gutter": "24px",
+                      "container-max": "1280px"
+              },
+              "fontFamily": {
+                      "stats-number": [
+                              "Manrope"
+                      ],
+                      "headline-xl": [
+                              "Manrope"
+                      ],
+                      "label-sm": [
+                              "IBM Plex Sans"
+                      ],
+                      "body-md": [
+                              "Work Sans"
+                      ],
+                      "headline-md": [
+                              "Manrope"
+                      ],
+                      "headline-lg": [
+                              "Manrope"
+                      ],
+                      "body-lg": [
+                              "Work Sans"
+                      ],
+                      "headline-lg-mobile": [
+                              "Manrope"
+                      ]
+              },
+              "fontSize": {
+                      "stats-number": [
+                              "40px",
+                              {
+                                      "lineHeight": "1.0",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "headline-xl": [
+                              "48px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "1.0",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.5",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(-300px * 5 - 1.5rem * 5)); }
+        }
+        .animate-scroll {
+            animation: scroll 30s linear infinite;
+        }
+        .animate-scroll:hover {
+            animation-play-state: paused;
+        }
+    @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } } .animate-marquee { display: flex; width: max-content; animation: marquee 25s linear infinite; } .animate-marquee:hover { animation-play-state: paused; }</style>
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto backdrop-blur-md z-50 border-b border-black/10 transition-all duration-300 bg-white/40 backdrop-blur-xl" id="site-header">
+<div class="flex items-center gap-4">
+<img alt="NSEC Logo" class="h-10 object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0ujYpo7B3GVtOnBt3_FENsmrh8ajdl8SzY7V8-D4g9zEI_bq2S9BOPrDfrhnJY1GN1jhlYBFq7uKoaQ6pbnmDJ6_NikxbrtKGghc8ximtyAVrgv6adOgd08B-5BZ8sOovHeaFPTUwuWBHWSHNVH81X_6FHSjZk6BpOgAc2Z4QuYjjNUfPp1Z1QfNANvZVwSch1nD7x2koJMhsOykoa0w27B7bgFr-q580-AKF3tt4x9HqaNknxSbD1C1">
+<h1 class="font-headline-md text-xl md:text-headline-md font-extrabold text-primary tracking-tighter">NETAJI SUBHASH ENGINEERING COLLEGE</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-primary font-bold border-b-2 border-tertiary-container pb-1 font-label-sm text-label-sm uppercase tracking-widest hover:text-tertiary-container transition-colors" href="#">Home</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 font-label-sm text-label-sm uppercase tracking-widest" href="#">Programs</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 font-label-sm text-label-sm uppercase tracking-widest" href="#">Faculty</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 font-label-sm text-label-sm uppercase tracking-widest" href="#">Placements</a>
+<a class="bg-tertiary-container text-white px-6 py-2 font-label-sm text-label-sm uppercase tracking-widest rounded-sm hover:bg-error hover:scale-105 active:scale-95 transition-all duration-300" href="#">Apply Now</a>
+</nav>
+<button class="md:hidden p-2 text-primary hover:text-tertiary-container transition-colors">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="pt-[72px]">
+<!-- Main Hero Banner -->
+<section class="relative w-full h-[50vh] md:h-[60vh] overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url(&quot;https://nsec.ac.in/images/gallery/cse/frontpage-2025-fac.jpeg&quot;);">
+<div class="absolute inset-0 bg-primary/60 backdrop-blur-[2px]"></div>
+</div>
+<div class="relative h-full flex flex-col justify-center items-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center text-white scroll-animate">
+<span class="inline-block px-4 py-1.5 text-white font-label-sm text-label-sm rounded-sm uppercase tracking-[0.2em] bg-white/10 backdrop-blur-md border border-white/20 mb-8">Established 1998</span>
+<h2 class="font-headline-xl text-headline-lg-mobile md:text-headline-xl mb-4 leading-tight max-w-4xl font-extrabold uppercase tracking-tight">Department of Computer Science &amp; Engineering</h2>
+<div class="w-24 h-1.5 bg-tertiary-container mx-auto mt-6 rounded-full shadow-[0_0_15px_rgba(186,26,26,0.5)]"></div>
+</div>
+</section>
+<!-- Engineering the Future Content Section -->
+<section class="py-24 bg-surface scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="order-2 md:order-1">
+<div class="flex items-center gap-4 mb-6">
+<span class="inline-block px-3 py-1 text-primary font-label-sm text-label-sm rounded-sm uppercase tracking-widest bg-primary/5 border border-primary/10">Department Overview</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold"><span class="material-symbols-outlined text-sm">verified</span> NBA Accredited</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-6 leading-tight font-extrabold">Engineering the Future: 27 Years of Excellence</h2>
+<p class="font-body-md md:font-body-lg text-on-surface-variant mb-8 leading-relaxed">The Department of Computer Science and Engineering at Netaji Subhash Engineering College was established in 1998 and is a well-known center for academic excellence. With expert faculty, state-of-the-art infrastructure, and a strong industry orientation, the department empowers students with the skills and adaptability required to excel in rapidly evolving domains such as Artificial Intelligence, Data Science, Cyber Security, and Quantum Computing.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-tertiary-container text-white px-8 py-3 font-label-sm text-label-sm rounded-sm font-bold hover:bg-error hover:scale-105 active:scale-95 transition-all duration-300 uppercase tracking-widest">Apply Now</button>
+<button class="border border-primary/20 bg-primary/5 text-primary px-8 py-3 font-label-sm text-label-sm rounded-sm font-bold hover:bg-primary/10 hover:scale-105 active:scale-95 transition-all duration-300 uppercase tracking-widest backdrop-blur-sm">Virtual Tour</button>
+</div>
+</div>
+<div class="order-1 md:order-2 flex justify-center">
+<div class="relative p-2 glass-panel border border-white/40 rounded-xl shadow-2xl rotate-1 hover:rotate-0 transition-transform duration-500">
+<img alt="Engineering Students" class="rounded-lg shadow-lg w-full max-w-[600px] h-auto object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida/ADBb0ujVNQufdj6xzqf3_anKy_N0hCIog8uVYG_PR7ilXXwQx1id4y42mdybhgJpyBarSjNBClKuSo--bclezDBBHZPq3JqyloMA5pr1zF6WL9PxjToJaxDUlfxztuwpA31Rif4cgwF8s0ACgrBpTvUbB5bcHHU4y8-CI79mujRzyGSxwWq6jsVdNECeSO_aLICYtNgV5vD-PtuYZvI_NaUGg7sHhYomC1WRxUBuZ-5NaDRmusSYbgj_vJibwQU">
+<div class="absolute -bottom-6 -right-6 w-32 h-32 bg-tertiary-container/10 rounded-full blur-2xl -z-10"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Department Pulse (Stats) -->
+<section class="py-16 bg-surface-container-low border-y border-outline-variant/20 scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 text-center">
+<div class="flex flex-col items-center hover:-translate-y-1 transition-transform duration-300">
+<span class="font-stats-number text-stats-number text-primary mb-2">27+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Years Legacy</span>
+</div>
+<div class="flex flex-col items-center md:border-l border-outline-variant/30 md:px-4 hover:-translate-y-1 transition-transform duration-300">
+<span class="font-stats-number text-stats-number text-primary mb-2">5000+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Alumni Globally</span>
+</div>
+<div class="flex flex-col items-center md:border-l border-outline-variant/30 md:px-4 hover:-translate-y-1 transition-transform duration-300">
+<span class="font-stats-number text-stats-number text-primary mb-2">95%</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Avg Placements</span>
+</div>
+<div class="flex flex-col items-center md:border-l border-outline-variant/30 md:px-4 hover:-translate-y-1 transition-transform duration-300">
+<span class="font-stats-number text-stats-number text-primary mb-2">50+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Ph.D. Faculty</span>
+</div>
+</div>
+</section>
+<!-- Academic Programs -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto bg-surface scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+<div class="text-center mb-16">
+<span class="font-label-sm text-label-sm text-tertiary-container uppercase tracking-widest mb-4 block font-bold text-primary/60 border-b border-primary/10 w-fit mx-auto pb-1">Comprehensive Curriculum</span>
+<h3 class="font-headline-lg text-headline-lg text-primary mb-4">Specialized Programs</h3>
+<p class="max-w-2xl mx-auto font-body-md text-on-surface-variant">Designed to align with emerging technological trends and industry requirements. Explore our specialized B.Tech streams.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- AI & ML -->
+<div class="border border-white/20 p-8 rounded-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 group bg-white/40 backdrop-blur-lg">
+<div class="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<h4 class="font-headline-md text-xl font-bold mb-3">B.Tech in CSE (AIML)</h4>
+<p class="font-body-md text-on-surface-variant mb-6 h-20">Specialized program focusing on Artificial Intelligence and Machine Learning paradigms, preparing students for intelligent system design.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold font-label-sm text-label-sm uppercase tracking-widest hover:text-tertiary-container transition-colors" href="#">
+                        Explore Program <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- Data Science -->
+<div class="border border-white/20 p-8 rounded-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 group bg-white/40 backdrop-blur-lg">
+<div class="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+<span class="material-symbols-outlined">analytics</span>
+</div>
+<h4 class="font-headline-md text-xl font-bold mb-3">B.Tech in CSE (DS)</h4>
+<p class="font-body-md text-on-surface-variant mb-6 h-20">Deep dive into Data Science, big data analytics, and statistical modeling to extract actionable insights from complex datasets.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold font-label-sm text-label-sm uppercase tracking-widest hover:text-tertiary-container transition-colors" href="#">
+                        Explore Program <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- IoT -->
+<div class="border border-white/20 p-8 rounded-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 group bg-white/40 backdrop-blur-lg">
+<div class="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+<span class="material-symbols-outlined">router</span>
+</div>
+<h4 class="font-headline-md text-xl font-bold mb-3">B.Tech in CSE (IoT)</h4>
+<p class="font-body-md text-on-surface-variant mb-6 h-20">Focusing on Internet of Things, connected devices architecture, and sensor networks for smart environments.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold font-label-sm text-label-sm uppercase tracking-widest hover:text-tertiary-container transition-colors" href="#">
+                        Explore Program <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="text-center mt-12">
+<button class="border-2 border-primary text-primary px-8 py-3 font-label-sm text-label-sm rounded-sm font-bold hover:bg-primary hover:text-white hover:scale-105 active:scale-95 transition-all duration-300 shadow-sm hover:shadow-lg uppercase tracking-widest">View All Courses</button>
+</div>
+</section>
+<!-- HOD Spotlight -->
+<section class="bg-surface-container-low py-24 relative overflow-hidden border-y border-outline-variant/30 scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-4 relative group">
+<div class="absolute -top-12 -left-12 w-64 h-64 bg-tertiary-container/10 rounded-full blur-3xl group-hover:bg-tertiary-container/20 transition-colors duration-500"></div>
+<div class="relative rounded-sm overflow-hidden border-8 border-white shadow-xl group-hover:shadow-2xl transition-shadow duration-500">
+<img alt="Dr. Piyali Chatterjee" class="w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ADBb0ugRqGkTsmwSrKQeqfMjqsPd4BPIOywBw7X3bAgwPhe0G4IlbXlB2q13r541aJHrOleuerDhg3-s50VYM9FwRFToslK5T7Cvm0th515Xw7SMz0_kBfZHNh_fT8qhyd2s76dDUAwCoeNHlhBRkj6aHi4FOoCGXr7nqHlTeyN-6UAqnqmNU1d-NB5M3CodIJH1KhM_QcKXVyKG76MUlB17YirYjl_zFbEUiN9xD8-GzrTwRUF6WMWI1ZsQ">
+</div>
+</div>
+<div class="md:col-span-8">
+<span class="font-label-sm text-label-sm text-tertiary-container uppercase tracking-widest mb-4 block font-bold text-primary/60 border-b border-primary/10 w-fit mx-auto pb-1">Message from the Head of Department</span>
+<h3 class="font-headline-lg md:text-headline-xl text-3xl text-primary mb-8 leading-tight font-extrabold">Shaping Thought Leaders &amp; Innovators</h3>
+<blockquote class="mb-10 relative pl-8 border-l-4 border-tertiary-container border-l border-primary/20">
+<p class="font-body-lg text-lg md:text-xl text-on-surface-variant leading-relaxed mb-4">"Welcome to the Department of Computer Science &amp; Engineering at Netaji Subhash Engineering College. It is an honor to lead a department that has consistently demonstrated a commitment to academic excellence, innovation, and professional growth."</p>
+<p class="font-body-md text-on-surface-variant leading-relaxed mb-4">"At the CSE department, we believe in shaping not just engineers but thought leaders and innovators who can adapt to and lead in a rapidly changing technological environment. Our curriculum is crafted to provide a strong theoretical foundation coupled with hands-on learning experiences, ensuring our graduates are industry-ready and research-capable."</p>
+<p class="font-body-md text-on-surface-variant leading-relaxed">"Through our robust placement programs, industry collaborations, and alumni network, we aim to provide our students with unparalleled opportunities to achieve their aspirations."</p>
+</blockquote>
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+<div>
+<h5 class="font-headline-md text-lg text-primary font-bold">Dr. Piyali Chatterjee</h5>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mt-1">Professor &amp; HOD, CSE</p>
+</div>
+<a class="bg-primary text-white px-8 py-3 rounded-sm font-label-sm text-label-sm uppercase tracking-widest font-bold hover:bg-tertiary-container hover:scale-105 active:scale-95 hover:shadow-lg transition-all duration-300 text-center" href="mailto:hod.cse@nsec.ac.in">Contact HOD</a>
+</div>
+</div>
+</div>
+</section><section class="py-24 bg-surface overflow-hidden scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-12">
+<div class="text-center">
+<span class="font-label-sm text-label-sm text-tertiary-container uppercase tracking-widest mb-4 block font-bold text-primary/60 border-b border-primary/10 w-fit mx-auto pb-1">Our Mentors</span>
+<h3 class="font-headline-lg text-headline-lg text-primary mb-4">Distinguished Faculty</h3>
+<p class="font-body-md text-on-surface-variant max-w-2xl mx-auto">Experts shaping the future of computer science</p>
+</div>
+</div>
+<div class="relative flex overflow-hidden">
+<div class="flex animate-scroll gap-6 px-margin-mobile md:px-margin-desktop">
+<div class="flex-shrink-0 w-[300px] glass-panel border border-white/20 p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+<img alt="Dr. Piyali Chatterjee" class="w-full h-48 object-cover rounded-sm mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdxVzP5GgNpxX5fSxl53nj1l3f_ZTLQP78fTobDGwt2qO07fM_sDUcWsRcIhRdtPK6USQ8e3XezPHNsS3NG5qEcL3AMEiytBJF39AYl0pMEWPRrnsOcCyWrCmikgTfEh9idTB94yKQK1E4sIONH9J3aSZRB2pC1A0ZAEApyNNJH0YpcaEzGSpze-mCFNX1MJtS9-rHLNWvw_vEEWzaJmjHp2AINvzrl6-q3kCsjyS_smvYkzBg28O73bkDyxyEmcWeumCxmR_PGFY">
+<h4 class="font-headline-md text-lg text-primary font-bold">Dr. Piyali Chatterjee</h4>
+<p class="font-label-sm text-xs text-on-secondary-fixed-variant uppercase tracking-widest mb-3">Professor &amp; HOD</p>
+<p class="font-body-sm text-sm text-on-surface-variant leading-snug"><strong class="text-primary font-semibold">Research:</strong> Bioinformatics, Machine Learning</p>
+</div>
+<div class="flex-shrink-0 w-[300px] glass-panel border border-white/20 p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+<img alt="Dr. Chandra Das" class="w-full h-48 object-cover rounded-sm mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAWph9T3_7P_Re80MMOFOnJohSq8uVFjvBfoSWFAmxSnLj8hinGK5Yk4b14A2ISp-tPb3YcyExCuikX2JX6dViF4fgoMs-r4fdmNCD-TWrUU_g0rpZ82f1XxnMKhkngaEz0c6KPuHsIabhjdkdkL2DO4dQoo0IRSh6I2uO6NhKrVpVg5Ivp7sxVqVKfpxa2kj4_Meqr5_rUGGuV3GIqDKfCIJ7mKh3RCDlQ9xNj-DSymSJMFhTXhAz31gAvaAlEbjwbnnNID0jOGI">
+<h4 class="font-headline-md text-lg text-primary font-bold">Dr. Chandra Das</h4>
+<p class="font-label-sm text-xs text-on-secondary-fixed-variant uppercase tracking-widest mb-3">Associate Professor</p>
+<p class="font-body-sm text-sm text-on-surface-variant leading-snug"><strong class="text-primary font-semibold">Research:</strong> Bioinformatics, Image Processing</p>
+</div>
+<div class="flex-shrink-0 w-[300px] glass-panel border border-white/20 p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+<img alt="Dr. Suvendu Chattaraj" class="w-full h-48 object-cover rounded-sm mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHRHKDQT05tCwZECI7vbEyLZR21mDo_5-13ETZ7UukhYn5MiX73KIAyYbqdDhiX8IJNDCS5EeXBi2Zh7uQKa0wu4HTzmNKm_bJu8ctGNiRPXND631YDqZqGNxCMQpAGBh8Jhu9h6a0WhUh78I05_HXNdxBXxZjfHGb8v29xWXVVebRc5KLzdsKAcDI-ccxRmunMQ1jO-EE8c1rP0DVaH4uRtdGDVqHglBnyK7awXmvbTymfbYS7U3VSL3ghO19ZJjfLEXLK0chtfI">
+<h4 class="font-headline-md text-lg text-primary font-bold">Dr. Suvendu Chattaraj</h4>
+<p class="font-label-sm text-xs text-on-secondary-fixed-variant uppercase tracking-widest mb-3">Associate Professor</p>
+<p class="font-body-sm text-sm text-on-surface-variant leading-snug"><strong class="text-primary font-semibold">Research:</strong> Machine Learning, Signal Processing</p>
+</div>
+<div class="flex-shrink-0 w-[300px] glass-panel border border-white/20 p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+<img alt="Mr. Saumen Sarkar" class="w-full h-48 object-cover rounded-sm mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHRHKDQT05tCwZECI7vbEyLZR21mDo_5-13ETZ7UukhYn5MiX73KIAyYbqdDhiX8IJNDCS5EeXBi2Zh7uQKa0wu4HTzmNKm_bJu8ctGNiRPXND631YDqZqGNxCMQpAGBh8Jhu9h6a0WhUh78I05_HXNdxBXxZjfHGb8v29xWXVVebRc5KLzdsKAcDI-ccxRmunMQ1jO-EE8c1rP0DVaH4uRtdGDVqHglBnyK7awXmvbTymfbYS7U3VSL3ghO19ZJjfLEXLK0chtfI">
+<h4 class="font-headline-md text-lg text-primary font-bold">Mr. Saumen Sarkar</h4>
+<p class="font-label-sm text-xs text-on-secondary-fixed-variant uppercase tracking-widest mb-3">Assistant Professor</p>
+<p class="font-body-sm text-sm text-on-surface-variant leading-snug"><strong class="text-primary font-semibold">Research:</strong> LMS using AI</p>
+</div>
+<div class="flex-shrink-0 w-[300px] glass-panel border border-white/20 p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+<img alt="Ms. Rituparna Pal" class="w-full h-48 object-cover rounded-sm mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAWph9T3_7P_Re80MMOFOnJohSq8uVFjvBfoSWFAmxSnLj8hinGK5Yk4b14A2ISp-tPb3YcyExCuikX2JX6dViF4fgoMs-r4fdmNCD-TWrUU_g0rpZ82f1XxnMKhkngaEz0c6KPuHsIabhjdkdkL2DO4dQoo0IRSh6I2uO6NhKrVpVg5Ivp7sxVqVKfpxa2kj4_Meqr5_rUGGuV3GIqDKfCIJ7mKh3RCDlQ9xNj-DSymSJMFhTXhAz31gAvaAlEbjwbnnNID0jOGI">
+<h4 class="font-headline-md text-lg text-primary font-bold">Ms. Rituparna Pal</h4>
+<p class="font-label-sm text-xs text-on-secondary-fixed-variant uppercase tracking-widest mb-3">Assistant Professor</p>
+<p class="font-body-sm text-sm text-on-surface-variant leading-snug"><strong class="text-primary font-semibold">Research:</strong> Machine Learning</p>
+</div>
+</div>
+</div>
+</section>
+<!-- World Class Infrastructure -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto scroll-animate transition-all duration-700 ease-out delay-100 opacity-100 translate-y-0">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div class="max-w-2xl">
+<span class="font-label-sm text-label-sm text-tertiary-container uppercase tracking-widest mb-2 block font-bold text-primary/60 border-b border-primary/10 w-fit pb-1">World-Class Infrastructure</span>
+<h3 class="font-headline-lg text-headline-lg text-primary mb-4">Advanced Laboratories &amp; Facilities</h3>
+<p class="font-body-md text-on-surface-variant">Advanced laboratories and computing facilities equipped with state-of-the-art tools and technologies to support pioneering research areas such as Artificial Intelligence, Machine Learning, and Big Data Analytics.</p>
+</div>
+<a class="font-label-sm text-label-sm font-bold text-primary border-b-2 border-primary pb-1 uppercase tracking-widest whitespace-nowrap hover:text-tertiary-container hover:border-tertiary-container transition-colors" href="#">Take Virtual Tour</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="relative h-96 overflow-hidden rounded-sm group shadow-lg hover:shadow-2xl transition-shadow duration-500">
+<img alt="Lab session" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida/ADBb0ujo7AmpPN6W8i2LFFS7ok3XPoIdU5OcS0y9ZyLKhiZnNEvhOF50xBV2IKOQ-5sScwK67wEbHAiJK7BASFJGJoXazuTPJ3d3gkT0mrch9PmxqHiWbdsCJbGl0OLYB46tplzDdyQZQ96Vqmh24BYmoO8XHf2xDzU-Oz0hUAi5ZkmSx3xMXqie8jsznMZbncbMF5Y2F1u-UkRBApkV6fQGkV51FWnj8fHiCqff3kZI8pyJO58ZrfrjFM_i">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent flex flex-col justify-end p-8 text-white">
+<span class="text-white font-label-sm text-xs px-2 py-1 rounded-sm w-fit mb-3 uppercase tracking-widest bg-white/20 backdrop-blur-md border border-white/10">Research Excellence</span>
+<h4 class="font-headline-md text-2xl mb-2 group-hover:translate-y-0 transition-transform duration-300">AI &amp; Machine Learning Lab</h4>
+<p class="font-body-md text-white/80 line-clamp-2 opacity-90 group-hover:opacity-100 transition-opacity duration-300">Active engagement in pioneering research areas utilizing high-performance computing clusters.</p>
+</div>
+</div>
+<div class="flex flex-col gap-8">
+<div class="flex gap-6 items-center bg-white/40 backdrop-blur-md p-6 rounded-xl border border-white/20 group hover:bg-white/60 hover:shadow-lg transition-all duration-500 cursor-pointer">
+<div class="w-16 h-16 bg-primary/10 flex-shrink-0 flex items-center justify-center rounded-full text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300 group-hover:scale-110">
+<span class="material-symbols-outlined text-3xl">hub</span>
+</div>
+<div>
+<h4 class="font-headline-md text-lg font-bold mb-1 group-hover:text-primary transition-colors">IoT &amp; Sensor Networks</h4>
+<p class="font-body-sm text-sm text-on-surface-variant">Dedicated facility for smart environment architecture.</p>
+</div>
+</div>
+<div class="flex gap-6 items-center bg-white/40 backdrop-blur-md p-6 rounded-xl border border-white/20 group hover:bg-white/60 hover:shadow-lg transition-all duration-500 cursor-pointer">
+<div class="w-16 h-16 bg-primary/10 flex-shrink-0 flex items-center justify-center rounded-full text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300 group-hover:scale-110">
+<span class="material-symbols-outlined text-3xl">security</span>
+</div>
+<div>
+<h4 class="font-headline-md text-lg font-bold mb-1 group-hover:text-primary transition-colors">Cyber Security Lab</h4>
+<p class="font-body-sm text-sm text-on-surface-variant">Advanced setups for ethical hacking and cryptography.</p>
+</div>
+</div>
+<div class="flex gap-6 items-center bg-white/40 backdrop-blur-md p-6 rounded-xl border border-white/20 group hover:bg-white/60 hover:shadow-lg transition-all duration-500 cursor-pointer">
+<div class="w-16 h-16 bg-primary/10 flex-shrink-0 flex items-center justify-center rounded-full text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300 group-hover:scale-110">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<div>
+<h4 class="font-headline-md text-lg font-bold mb-1 group-hover:text-primary transition-colors">Digital Library &amp; e-Resources</h4>
+<p class="font-body-sm text-sm text-on-surface-variant">Extensive collection of journals and technical literature.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Partnership & Placement Gallery -->
+<section class="py-24 bg-primary text-white text-center scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<span class="font-label-sm text-label-sm text-tertiary-fixed-dim uppercase tracking-widest mb-4 block font-bold text-primary/60 border-b border-primary/10 w-fit mx-auto pb-1">Industry Integration</span>
+<h3 class="font-headline-lg text-headline-lg mb-6">Strategic Partnerships &amp; Top Recruiters</h3>
+<p class="font-body-md text-white/80 max-w-3xl mx-auto mb-16">We maintain strong strategic partnerships with leading training and development organizations, ensuring our students receive industry-aligned training and secure positions in leading global companies.</p>
+<div class="overflow-hidden relative mb-12 opacity-80"><div class="animate-marquee gap-12 md:gap-24 items-center"><div class="flex items-center gap-12 md:gap-24 flex-nowrap"><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><img alt="TCS" class="h-10 filter brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKwN9_J9zCrtWKuzxL_fjjGGXvRE_H-XYI_bxMydJS5pY0bVuLMTmcvQnkrwHpKZMGgFGKV4f4OIQ-38owyc4av8iE09DyNsOVADwyj57gLZou9LOWd-PTzCLvAqikjt7FY05JsRix4vJpT3ZnZAc3BESFDmn2EUidZWqy0IaAn8nnl7gHokSqGtWchyaj01XQS9xu9fmc8EMngxXo51MiTUTcLOutF29r94_dxnoCjM4HNRedWW96HH4DT8y-47RZoGVdn0aXTg"><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><img alt="Amazon" class="h-8 filter brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeZjfeTK_rAw0N4hm3JJoNMVQyDzjKd5m1gqZFrsL6_rhNmWlPBKMZBSe6BkqEltzG43JJDVPZJpMl9dTDa3ZaA2m98LOvImwKccK5fUEjajGqiFpweeM1HJ5EmDFC4ShZNn5RaBh-9svu6yKA6AtiQ4MNG1Nngm4j07Nyhrw5MaMKJSMp6G9nxzQj8E-z8Ver2NQCd9s8mC6lt2sltKAfUcu2GXmoDMN8n-mJFSTtGj2_x2UgTsso3gHLjcHkvDnzKD0T8NfYYQ"><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><h4 class="text-2xl font-bold tracking-tighter">Accenture</h4><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><h4 class="text-xl font-bold tracking-tighter">Infosys Springboard</h4><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Training Partner</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><h4 class="text-2xl font-bold tracking-tighter">EPAM</h4><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Training Partner</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><h4 class="text-2xl font-bold tracking-tighter">NASSCOM</h4><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Strategic Partner</span></div></div><div aria-hidden="true" class="flex items-center gap-12 md:gap-24 flex-nowrap"><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><img alt="TCS" class="h-10 filter brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKwN9_J9zCrtWKuzxL_fjjGGXvRE_H-XYI_bxMydJS5pY0bVuLMTmcvQnkrwHpKZMGgFGKV4f4OIQ-38owyc4av8iE09DyNsOVADwyj57gLZou9LOWd-PTzCLvAqikjt7FY05JsRix4vJpT3ZnZAc3BESFDmn2EUidZWqy0IaAn8nnl7gHokSqGtWchyaj01XQS9xu9fmc8EMngxXo51MiTUTcLOutF29r94_dxnoCjM4HNRedWW96HH4DT8y-47RZoGVdn0aXTg"><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><img alt="Amazon" class="h-8 filter brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeZjfeTK_rAw0N4hm3JJoNMVQyDzjKd5m1gqZFrsL6_rhNmWlPBKMZBSe6BkqEltzG43JJDVPZJpMl9dTDa3ZaA2m98LOvImwKccK5fUEjajGqiFpweeM1HJ5EmDFC4ShZNn5RaBh-9svu6yKA6AtiQ4MNG1Nngm4j07Nyhrw5MaMKJSMp6G9nxzQj8E-z8Ver2NQCd9s8mC6lt2sltKAfUcu2GXmoDMN8n-mJFSTtGj2_x2UgTsso3gHLjcHkvDnzKD0T8NfYYQ"><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><h4 class="text-2xl font-bold tracking-tighter">Accenture</h4><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Recruiter</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><h4 class="text-xl font-bold tracking-tighter">Infosys Springboard</h4><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Training Partner</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><h4 class="text-2xl font-bold tracking-tighter">EPAM</h4><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Training Partner</span></div><div class="hover:opacity-100 hover:scale-110 transition-all duration-300 flex flex-col justify-center items-center gap-2 cursor-pointer shrink-0"><h4 class="text-2xl font-bold tracking-tighter">NASSCOM</h4><span class="text-xs font-label-sm uppercase tracking-widest mt-2 text-white/60">Strategic Partner</span></div></div></div></div>
+<p class="font-body-md text-white/60 italic">Including Dynamo AI, rtCamp, Cognizant, Dell Technologies, Virtusa and 200+ more organizations.</p>
+<div class="mt-12">
+<button class="border border-white/50 text-white px-8 py-3 font-label-sm text-label-sm rounded-sm font-bold hover:bg-white hover:text-primary hover:scale-105 active:scale-95 transition-all duration-300 uppercase tracking-widest">View Placement Statistics</button>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto scroll-animate transition-all duration-700 ease-out opacity-100 translate-y-0">
+<div class="bg-white/30 backdrop-blur-2xl border border-white/40 p-12 md:p-24 rounded-2xl relative overflow-hidden group shadow-xl hover:shadow-2xl transition-all duration-700">
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+<div class="absolute top-0 right-0 w-32 h-32 bg-tertiary-container/10 rounded-bl-full -z-0 group-hover:scale-110 transition-transform duration-700"></div>
+<div class="absolute bottom-0 left-0 w-48 h-48 bg-primary/5 rounded-tr-full -z-0 group-hover:scale-110 transition-transform duration-700"></div>
+<div class="relative z-10 text-center max-w-3xl mx-auto">
+<div class="inline-flex items-center gap-2 bg-primary/5 px-4 py-1 rounded-sm mb-6 border border-primary/10 hover:bg-primary/10 transition-colors cursor-default">
+<span class="material-symbols-outlined text-tertiary-container text-sm">campaign</span>
+<span class="font-label-sm text-xs font-bold text-primary uppercase tracking-widest">Admissions Open 2025-26</span>
+</div>
+<h2 class="font-headline-xl text-4xl md:text-5xl text-primary mb-6 font-extrabold tracking-tight">Begin Your Engineering Odyssey</h2>
+<p class="font-body-lg text-on-surface-variant mb-10 leading-relaxed">Join a vibrant community of learning, discovery, and impact. Applications for the Academic Session 2025-26 are now open for all Computer Science &amp; Engineering programs. Limited seats available for high-potential candidates.</p>
+<div class="flex flex-col md:flex-row justify-center gap-4">
+<button class="bg-tertiary-container text-white px-10 py-4 font-label-sm text-sm rounded-sm hover:bg-error hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg hover:shadow-xl font-bold uppercase tracking-widest">Apply for 2025-26</button>
+<button class="bg-white text-primary px-10 py-4 border-2 border-primary font-label-sm text-sm rounded-sm hover:bg-primary hover:text-white hover:scale-105 active:scale-95 transition-all duration-300 shadow-sm hover:shadow-lg font-bold uppercase tracking-widest flex items-center justify-center gap-2 group">
+<span class="material-symbols-outlined text-sm group-hover:translate-y-1 transition-transform">download</span> Download Brochure
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Distinguished Faculty Banner -->
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-start gap-12 bg-primary text-white border-t border-primary-fixed/20">
+<div class="max-w-sm">
+<div class="flex items-center gap-3 mb-6 bg-white p-2 rounded-sm w-fit">
+<img alt="NSEC Logo" class="h-10 object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0ujYpo7B3GVtOnBt3_FENsmrh8ajdl8SzY7V8-D4g9zEI_bq2S9BOPrDfrhnJY1GN1jhlYBFq7uKoaQ6pbnmDJ6_NikxbrtKGghc8ximtyAVrgv6adOgd08B-5BZ8sOovHeaFPTUwuWBHWSHNVH81X_6FHSjZk6BpOgAc2Z4QuYjjNUfPp1Z1QfNANvZVwSch1nD7x2koJMhsOykoa0w27B7bgFr-q580-AKF3tt4x9HqaNknxSbD1C1">
+</div>
+<p class="font-body-md text-white/70 mb-6 leading-relaxed">Techno City, Panchpota, Garia<br>Kolkata 700152, West Bengal, India<br>Tel.: 03324361285</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-tertiary-container hover:border-tertiary-container hover:scale-110 transition-all duration-300" href="#"><span class="material-symbols-outlined text-lg">public</span></a>
+<a class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-tertiary-container hover:border-tertiary-container hover:scale-110 transition-all duration-300" href="#"><span class="material-symbols-outlined text-lg">groups</span></a>
+<a class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-tertiary-container hover:border-tertiary-container hover:scale-110 transition-all duration-300" href="#"><span class="material-symbols-outlined text-lg">school</span></a>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 w-full md:w-auto">
+<div>
+<h5 class="font-bold text-white mb-6 uppercase tracking-widest text-xs font-label-sm">Academics</h5>
+<ul class="space-y-4">
+<li class=""><a class="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm" href="#">B.Tech Programs</a></li>
+<li class=""><a class="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm" href="#">M.Tech Programs</a></li>
+<li class=""><a class="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm" href="#">Curriculum &amp; Syllabus</a></li>
+<li class=""><a class="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm" href="#">Academic Calendar</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold text-white mb-6 uppercase tracking-widest text-xs font-label-sm">Important Links</h5>
+<ul class="space-y-4">
+<li class=""><a class="text-white/70 hover:text-white hover:translate-x-1 inline-block transition-all duration-200 font-body-sm text-sm" href="#">NBA Accreditation</a></li>
+<li class=""></li></ul></div></div></footer>
+
+
+
+</body></html>

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Mr. Shilpi Bose",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595506959.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=41",
+    "researchArea": "Pattern Recognition, Bioinformatics, Data Mining, Machine Learning and Image Processing",
+    "experience": "17 years"
+  },
+  {
+    "name": "Mr. Sumanta Das",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595999941.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=42",
+    "researchArea": "Cloud computing",
+    "experience": "17 years"
+  },
+  {
+    "name": "Ms. Soumi Ghosh",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595932490.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=48",
+    "researchArea": "Cloud computing with data analysis",
+    "experience": "12 years"
+  },
+  {
+    "name": "Dr. Anupam Ghosh",
+    "designation": "Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1756630254.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=138",
+    "researchArea": "Data Mining, AI, generative AI, Explainable AI, Soft Computing, Machine Learning, Sentiment Analysis, Deep Neural networks, Image Processing, bio-medical Imaging, Parallel computing (GPU-CUDA), Criminology, Network Security, Neurological &amp; Psychological Disorders, Computational Biology",
+    "experience": "23 years"
+  },
+  {
+    "name": "Dr. Subrata Datta",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1683431478.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=157",
+    "researchArea": "Data Mining, Pattern Recognition, Artificial Intelligence",
+    "experience": "17 years"
+  },
+  {
+    "name": "Dr. Sayantani Ghosh",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1726845151.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=209",
+    "researchArea": "Artificial Intelligence, Machine Learning, Image Mining, Semantic Annotation.",
+    "experience": "15 years"
+  },
+  {
+    "name": "Dr. Anirban Kundu",
+    "designation": "Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1676372089.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=95",
+    "researchArea": "His research interests include pattern recognition, machine learning, artificial intelligence, search engine optimization, prediction, distributed computing, semantic web, natural language processor, cellular automata, multi-agent system, fuzzy controlled system, cloud computing, high performance computing, internet of things, storage system, smart traffic, cryptography.",
+    "experience": "20 years"
+  },
+  {
+    "name": "Mr. Anupam Bera",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595600437.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=98",
+    "researchArea": "Big data, Machine Learning",
+    "experience": "14 years"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Dr. Anupam Ghosh",
+    "designation": "Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1756630254.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=138",
+    "researchArea": "Data Mining, AI, generative AI, Explainable AI, Soft Computing, Machine Learning, Sentiment Analysis, Deep Neural networks, Image Processing, bio-medical Imaging, Parallel computing (GPU-CUDA), Criminology, Network Security, Neurological &amp; Psychological Disorders, Computational Biology",
+    "experience": "23 years"
+  },
+  {
+    "name": "Dr. Aradhita Mukherjee",
+    "designation": "Associate Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1747380632.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=232",
+    "researchArea": "Blockchain and Machine learning",
+    "experience": "12 years"
+  },
+  {
+    "name": "Mr. Kallol Bhattacharya",
+    "designation": "Associate Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/me.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=219",
+    "researchArea": "Being pursued",
+    "experience": "25 years"
+  },
+  {
+    "name": "Dr. Sandip Sadhukhan",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1739872302.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=228",
+    "researchArea": "Medical Image Processing, Machine Learning",
+    "experience": "25 years"
+  },
+  {
+    "name": "Dr. Subrata Datta",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1683431478.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=157",
+    "researchArea": "Data Mining, Pattern Recognition, Artificial Intelligence",
+    "experience": "17 years"
+  },
+  {
+    "name": "Dr. Sourabh Chandra",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/sourabh_chandra_picture.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=218",
+    "researchArea": "Elastic optical networks, Placement of Data Centers, SDM-EON, Cryptography , Mobile Computing",
+    "experience": "17 years"
+  },
+  {
+    "name": "Dr. Sayantani Ghosh",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1726845151.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=209",
+    "researchArea": "Artificial Intelligence, Machine Learning, Image Mining, Semantic Annotation.",
+    "experience": "15 years"
+  },
+  {
+    "name": "Dr. Ratul Chowdhury",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1739927445.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=229",
+    "researchArea": "Network security, Cryptography, Machine learning, Ensemble learning, IoT security",
+    "experience": "10 years"
+  },
+  {
+    "name": "Dr. Supratim Ghosh",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/sg.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=217",
+    "researchArea": "Deep Learning, Medical Image Analysis, Generative AI",
+    "experience": "8 years"
+  },
+  {
+    "name": "Dr. Priya Roy Karmakar",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1755630582.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=233",
+    "researchArea": "Indoor Localization, Deep Learning, Machine Learning",
+    "experience": "4 years"
+  },
+  {
+    "name": "Dr. Nirmal Das",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1744884886.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=230",
+    "researchArea": "Medical Image Analysis, Deep Learning",
+    "experience": "3 years"
+  },
+  {
+    "name": "Mr. Saikat Bandopadhyay",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1704790078.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=158",
+    "researchArea": "Machine Learning, Brain Signal Processing, Brain Computer Interface",
+    "experience": "7 years"
+  }
+]

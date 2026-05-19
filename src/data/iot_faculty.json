@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Mr. Arnab Hazra",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1762413463.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=235",
+    "researchArea": "Internet of Drone Things, Federated Learning, Optimization Techniques",
+    "experience": "11 years"
+  },
+  {
+    "name": "Mr. Arnab Chakraborty",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595953424.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=52",
+    "researchArea": "IoT Security and Trust",
+    "experience": "9 years"
+  },
+  {
+    "name": "Ms. Runa Chatterjee",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595959933.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=49",
+    "researchArea": "Cryptography in IoT domain",
+    "experience": "16 years"
+  },
+  {
+    "name": "Dr. Ratul Chowdhury",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1739927445.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=229",
+    "researchArea": "Network security, Cryptography, Machine learning, Ensemble learning, IoT security",
+    "experience": "10 years"
+  },
+  {
+    "name": "Dr. Priya Roy Karmakar",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1755630582.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=233",
+    "researchArea": "Indoor Localization, Deep Learning, Machine Learning",
+    "experience": "4 years"
+  },
+  {
+    "name": "Dr. Anirban Kundu",
+    "designation": "Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1676372089.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=95",
+    "researchArea": "His research interests include pattern recognition, machine learning, artificial intelligence, search engine optimization, prediction, distributed computing, semantic web, natural language processor, cellular automata, multi-agent system, fuzzy controlled system, cloud computing, high performance computing, internet of things, storage system, smart traffic, cryptography.",
+    "experience": "20 years"
+  },
+  {
+    "name": "Ms. Nivedita Ray",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1596029202.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=100",
+    "researchArea": "IOT",
+    "experience": "17 years"
+  }
+]

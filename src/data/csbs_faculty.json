@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Dr. Anirban Kundu",
+    "designation": "Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1676372089.jpeg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=95",
+    "researchArea": "His research interests include pattern recognition, machine learning, artificial intelligence, search engine optimization, prediction, distributed computing, semantic web, natural language processor, cellular automata, multi-agent system, fuzzy controlled system, cloud computing, high performance computing, internet of things, storage system, smart traffic, cryptography.",
+    "experience": "20 years"
+  },
+  {
+    "name": "Mr. ABHISEK SAHA",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1757194671.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=156",
+    "researchArea": "Steganography, Soft computing,Machine Learning, Deep Learning in the field of Agriculture",
+    "experience": "15 years"
+  },
+  {
+    "name": "Mr. Anupam Bera",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1595600437.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=98",
+    "researchArea": "Big data, Machine Learning",
+    "experience": "14 years"
+  },
+  {
+    "name": "Ms. Nivedita Ray",
+    "designation": "Assistant Professor",
+    "imageSrc": "https://www.nsec.ac.in/fps/images/1596029202.jpg",
+    "profileUrl": "https://www.nsec.ac.in/fps/faculty.php?id=100",
+    "researchArea": "IOT",
+    "experience": "17 years"
+  }
+]
